@@ -1,0 +1,24 @@
+# ============================================================
+# FinRight AI — .gitignore
+# Files listed here are NEVER uploaded to GitHub
+# ============================================================
+
+# SECRET — never commit these
+.env
+.env.local
+.env.production
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# System files
+.DS_Store
+.vscode/
+.idea/
+*.log
+.pytest_cache/
